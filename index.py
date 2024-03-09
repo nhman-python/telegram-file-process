@@ -15,7 +15,7 @@ BOT_TOKEN = "SDFGHJKGFDSDFGH:2345676543456"
 MAX_FILE_SIZE = 40 * 1024 * 1024  # 20 MB
 
 # Create a Pyrogram client instance
-app = Client("block_spam", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("file-process", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # Open a shelve file to store file names
 file_names_shelve = shelve.open('file_names')
